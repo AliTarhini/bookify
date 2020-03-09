@@ -1,0 +1,18 @@
+<div class="main-div">
+    <mat-card>
+        <h1>Find a book</h1>
+
+        <mat-form-field class="example-full-width">
+
+            <input matInput placeholder="Search for a book" (keyup)="search($event.target.value)">
+        </mat-form-field>
+
+    </mat-card>
+
+</div>
+
+<div>
+    <app-bookpreview *ngFor="let book of (books$ | async) " [book]="book ">
+        <p>test</p>
+    </app-bookpreview>
+</div>

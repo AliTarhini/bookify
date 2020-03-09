@@ -1,0 +1,6 @@
+<div *ngIf="((favorites$ | async)?.length ) === 0">
+    No books found in your fav list ..
+</div>
+
+<app-bookpreview *ngFor="let fav of (favorites$ | async)" [book]="fav">
+</app-bookpreview>

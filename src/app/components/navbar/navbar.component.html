@@ -1,0 +1,12 @@
+<mat-toolbar color="white">
+    <mat-toolbar-row>
+
+        <h1 class="title" [routerLink]="'/'">Bookify</h1>
+        <span class="menu-spacer"></span>
+        <div>
+            <a mat-button [routerLink]="'/'"> My Books({{favoritesCount$ | async}}) </a>
+            <a mat-button [routerLink]="'/search'"> Find Books </a>
+
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
