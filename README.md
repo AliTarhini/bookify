@@ -1,6 +1,7 @@
-# Proximieassessment
+# Bookify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+Bookify: A small Angular app interacting with Google Books API. 
+Live demo: https://alitarhini.github.io/bookify
 
 ## Development server
 
