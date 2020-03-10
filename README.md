@@ -5,7 +5,9 @@ Live demo: https://alitarhini.github.io/bookify
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application is divided into two pages: 
+- MyBooks page: to show the list of your books <br />
+- Search Book page: to search for a specific book
 
 ## Code scaffolding
 
