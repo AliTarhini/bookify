@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<a [routerLink]=\"['/book', id]\" class=\"bookPreview\">\n    <mat-card>\n        <mat-card-title-group>\n            <img mat-card-sm-image *ngIf=\"thumbnail\" [src]=\"thumbnail\" />\n            <mat-card-title>{{ title | bcEllipsis: 35 }}</mat-card-title>\n            <mat-card-subtitle *ngIf=\"subtitle\">\n                {{ subtitle | bcEllipsis: 40 }}\n            </mat-card-subtitle>\n        </mat-card-title-group>\n        <mat-card-content>\n            <p *ngIf=\"description\">{{ description | bcEllipsis }}</p>\n        </mat-card-content>\n\n    </mat-card>\n</a>");
+/* harmony default export */ __webpack_exports__["default"] = ("<a [routerLink]=\"['/book', id]\" style=\"width:100%;\">\r\n    <mat-card>\r\n        <mat-card-title-group>\r\n            <img mat-card-sm-image *ngIf=\"thumbnail\" [src]=\"thumbnail\" />\r\n            <mat-card-title>{{ title | bcEllipsis: 35 }}</mat-card-title>\r\n            <mat-card-subtitle *ngIf=\"subtitle\">\r\n                {{ subtitle | bcEllipsis: 40 }}\r\n            </mat-card-subtitle>\r\n        </mat-card-title-group>\r\n        <mat-card-content>\r\n            <p *ngIf=\"description\">{{ description | bcEllipsis }}</p>\r\n        </mat-card-content>\r\n\r\n    </mat-card>\r\n</a>");
 
 /***/ }),
 
